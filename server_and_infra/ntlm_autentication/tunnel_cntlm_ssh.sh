@@ -7,6 +7,10 @@
 # on the vps, we need squid3 listen on port 3128
 # and ssh listen on port 443
 
+# On your desktop we need install cntlm, on debian use: aptitude install cntlm
+# the configuration of cntlm is located into /etc/cntlm.conf
+# my configuration is here on this directory
+
 # This script can help you go through a local proxy and usually 
 # access the Internet through their vps machine
 
